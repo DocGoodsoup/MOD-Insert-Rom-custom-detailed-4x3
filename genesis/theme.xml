@@ -1,0 +1,25 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./_inc/background.jpg</path>
+		</image>
+	</view>
+	
+	<view name="basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	</view>
+	
+	<view name="detailed, video">	
+		
+   		<image name="bezel" extra="true">
+			<path>./_inc/bezel_detailed.png</path>
+		</image>
+		
+	</view>
+
+</theme>

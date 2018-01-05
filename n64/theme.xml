@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./_inc/background.jpg</path>
+		</image>
+	</view>
+	
+	<view name="basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	</view>
+	
+	<view name="detailed, video">	
+		
+   		<image name="bezel" extra="true">
+			<path>./_inc/bezel_detailed.png</path>
+		</image>
+		
+		<text name="
+			md_lbl_rating,
+			md_lbl_releasedate,
+			md_lbl_developer, md_developer,
+			md_lbl_publisher, md_publisher,
+			md_lbl_genre, md_genre,
+			md_lbl_players, md_players,
+			md_description
+			">
+				<color>ff2d1e</color>
+			</text>
+			
+			<rating name="md_rating">
+				<color>ff2d1e</color>
+				</rating>		
+			<datetime name="md_releasedate">
+				<color>ff2d1e</color>
+			</datetime>
+			<text name="md_description">
+				<color>0124a6</color>
+				</text>		
+		
+	</view>
+
+</theme>

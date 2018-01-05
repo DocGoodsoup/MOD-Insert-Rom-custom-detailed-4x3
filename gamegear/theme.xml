@@ -1,0 +1,73 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./_inc/background.jpg</path>
+		</image>
+	</view>
+	
+	<view name="basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image> 
+	</view>
+	
+	<view name="detailed, video">		
+		<textlist name="gamelist">
+			<pos>0.3094 0.4583</pos>
+			<size>0.32125 0.3267</size>
+		</textlist>
+		
+   		<image name="bezel" extra="true">
+			<path>./_inc/bezel_detailed.png</path>
+		</image>
+		
+		<image name="md_image">		
+			<pos>1 1</pos>
+			<origin>0 0</origin>
+			<rotation>0</rotation>
+		</image>
+		
+		<image name="md_marquee">
+			<pos>0.5 0.15</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.50625 0.2167</maxSize>
+			<rotation>0</rotation>
+		</image>		  
+		
+		<text name="
+			md_lbl_rating,
+			md_lbl_releasedate,
+			md_lbl_developer, md_developer,
+			md_lbl_publisher, md_publisher,
+			md_lbl_genre, md_genre,
+			md_lbl_players, md_players,
+			md_description
+			">	
+				<color>0d0d0d</color>
+		</text>			
+			<rating name="md_rating">	
+				<color>0d0d0d</color>
+				</rating>
+			<datetime name="md_releasedate">
+				<color>0d0d0d</color>
+				</datetime>
+			<text name="md_description">
+				<color>272727</color>
+			</text>	
+	</view>
+
+	<feature supported="video">
+      <view name="video">
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.3094 0.4583</pos>
+			<maxSize>0.33125 0.3367</maxSize>
+			<rotation>8.92</rotation>
+		</video>
+      </view>
+	</feature>
+	
+</theme>
